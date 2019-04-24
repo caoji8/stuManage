@@ -14,6 +14,7 @@ if __name__=="__main__":
         choose_main = input(">")
         choose_main = int(choose_main)
         if choose_main == 1:
+            #这里要改给 login传入的值
             student_input = input("请输入用户名,密码").split(",")
             try:
                 student_input_judge = login(student_input[0],student_input[1])
